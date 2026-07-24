@@ -9,4 +9,6 @@ jobs:
           uses: actions/checkout@v7
         - name: Build Project
           run: mvn clean install
+        - name: list directory
+          run: ls -al
 
