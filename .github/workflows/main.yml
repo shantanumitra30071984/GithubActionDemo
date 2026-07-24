@@ -5,6 +5,8 @@ jobs:
       name: GithubActionsDemo
       runs-on: ubuntu-24.04
       steps:
+        - name: find ip address
+          run: hostname -I
         - name: Checkout code
           uses: actions/checkout@v7
         - name: Build Project
