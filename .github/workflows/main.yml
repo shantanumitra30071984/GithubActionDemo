@@ -2,7 +2,7 @@ name: github action demo
 on: push
 jobs:
     GithubActionsDemo:
-      name: Build
+      name: GithubActionsDemo
       runs-on: ubuntu-24.04
       steps:
         - name: Checkout code
