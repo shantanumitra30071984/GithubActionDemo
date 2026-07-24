@@ -20,6 +20,6 @@ public class HelloWorldServlet extends HttpServlet {
         response.setContentType("text/plain");
 
         PrintWriter out = response.getWriter();
-        out.println("Hello World");
+        out.println("Hello Worlds");
     }
 }
